@@ -51,6 +51,9 @@
 }
 
 .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     font-size: 1.5rem;
     border-bottom: 1px solid #ccc;
@@ -80,4 +83,22 @@
 .success {
     color: green;
     border: 1px solid green;
+}
+
+.delete {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background: tomato;
+    color: white;
+}
+
+.done, .undone {
+    text-decoration: none;
+    color: black;
+}
+
+.done {
+    text-decoration: line-through;
+
 }
