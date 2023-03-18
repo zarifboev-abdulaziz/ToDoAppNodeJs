@@ -1,3 +1,7 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +30,7 @@
     font-size: 1.5rem;
     width: 80%;
     border: 1px solid #ccc;
+    font-family: inherit;
 }
 
 .btn {
@@ -50,7 +55,29 @@
     font-size: 1.5rem;
     border-bottom: 1px solid #ccc;
 }
+
+.todo:last-child {
+    border-bottom: none;
+}
+
 .todo:hover {
     background: #eee;
 }
 
+.error, .success {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    border: 1px solid red;
+}
+
+.success {
+    color: green;
+    border: 1px solid green;
+}
