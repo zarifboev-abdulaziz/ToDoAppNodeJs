@@ -5,7 +5,7 @@ This app helps users to track their todos
 #### Intsructions
 1. Download the source code
 ```bash 
-git clone [url to the github repo]
+git clone https://github.com/zarifboev-abdulaziz/ToDoAppNodeJs.git
 ```
 or just download the zip file
 
@@ -26,4 +26,4 @@ node app
 
 
 ## Link to github repo
-[url to the github repo]
+https://github.com/zarifboev-abdulaziz/ToDoAppNodeJs.git
